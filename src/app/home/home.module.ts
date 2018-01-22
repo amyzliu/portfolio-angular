@@ -5,7 +5,7 @@ import { HomeComponent } from './home.component';
 import { MyProjectsComponent } from './../my-projects/my-projects.component';
 import { FooterComponent } from './../shared/layout/footer/footer.component';
 import { HeaderComponent } from './../shared/layout/header/header.component';
-import { TabsetComponent } from './../tabset/tabset.component';
+// import { TabsetComponent } from './../tabset/tabset.component';
 
 
 const homeRouting: ModuleWithProviders = RouterModule.forChild([

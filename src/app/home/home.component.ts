@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TabsetComponent } from './../tabset/tabset.component';
+// import { TabsetComponent } from './../tabset/tabset.component';
 import {Router} from '@angular/router';
 
 @Component({
