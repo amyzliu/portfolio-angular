@@ -12,7 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { FooterComponent } from './shared/layout/footer/footer.component';
 import { HeaderComponent } from './shared/layout/header/header.component';
-import { TabsetComponent } from './tabset/tabset.component';
+// import { TabsetComponent } from './tabset/tabset.component';
 import { TabsetProjectsComponent } from './tabset-projects/tabset-projects.component';
 import { BlogComponent } from './blog/blog.component';
 
@@ -29,7 +29,6 @@ const appRoutes: Routes = [
     MyProjectsComponent,
     FooterComponent,
     HeaderComponent,
-    TabsetComponent,
     TabsetProjectsComponent,
     BlogComponent
 
