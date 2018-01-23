@@ -31,7 +31,6 @@ const appRoutes: Routes = [
     HeaderComponent,
     TabsetProjectsComponent,
     BlogComponent
-
   ],
   imports: [
     BrowserModule,
