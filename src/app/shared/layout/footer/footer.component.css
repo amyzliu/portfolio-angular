@@ -1,12 +1,13 @@
 .footer {
   font-weight: bold;
   padding-top: 20px;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
   text-align: center;
   bottom:0;
   width:100%;
-  padding:20px;
-  padding-bottom:16px;
+  padding:15px;
+  /*padding-bottom:15px;*/
+
 
 
   position:fixed;    /*Here's what sticks it*/

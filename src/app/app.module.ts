@@ -17,15 +17,6 @@ import { TabsetProjectsComponent } from './tabset-projects/tabset-projects.compo
 import { BlogComponent } from './blog/blog.component';
 import { GalleryComponent } from './gallery/gallery.component';
 
-
-// const appRoutes: Routes = [
-//   { path: 'my-projects', component: MyProjectsComponent },
-//   { path: 'home', component: HomeComponent },
-//   { path: 'blog', component: BlogComponent },
-//   { path: 'gallery', component: GalleryComponent }
-//
-// ];
-
 @NgModule({
   declarations: [
     AppComponent,
