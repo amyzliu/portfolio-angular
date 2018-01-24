@@ -1,6 +1,6 @@
 .footer {
   font-weight: bold;
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   /*padding-bottom: 20px;*/
   text-align: center;
   bottom:0;
@@ -9,10 +9,9 @@
   /*padding-bottom:15px;*/
 
 
+  position:fixed;    /*to stick to bottom*/
 
-  position:fixed;    /*Here's what sticks it*/
-       /*to the bottom of the body*/
-  left:0;            /*and to the left of the body.*/
+  left:0;            /*to stick to left of body*/
   background:rgba(233, 236, 239, .5)
 }
 
