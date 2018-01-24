@@ -1,7 +1,15 @@
 <body>
 <div class="descr">
-<p>
-  Gallery coming soon!
-</p>
+  <h2>{{ title }}</h2>
+
+  <div class="row">
+    <button class = "btn btn-lg btn-info" [class.Active]="filterBy=='all'" (click)="filterBy='all'">All</button>
+    <button class = "btn btn-lg btn-info" [class.Active]="filterBy=='all'" (click)="filterBy='projects'">Projects</button>
+    <button class = "btn btn-lg btn-info" [class.Active]="filterBy=='all'" (click)="filterBy='activities'">Activities</button>
+    <ul id="thumbnailsList">
+      <li *ngFor="let image of (visibleImages | imageFilter: filterBy)">
+        <img src="{{image.url}}" class="tn" width="250">
+    </ul>
+  </div>
 </div>
 </body>

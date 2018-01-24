@@ -9,16 +9,14 @@ import { HeaderComponent } from './shared/layout/header/header.component';
 import { TabsetProjectsComponent } from './tabset-projects/tabset-projects.component';
 import { BlogComponent } from './blog/blog.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ImagesComponent} from './images/images.component';
 
-const appRoutes: Routes = [
+export const appRoutes: Routes = [
   { path: 'my-projects', component: MyProjectsComponent },
   { path: 'home', component: HomeComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'gallery', component: GalleryComponent },
-  {
-    path: '',
-    component: HomeComponent
-  }
-
+  { path: '', redirectTo: '/home', pathMatch: 'full'},
+  { path: 'image/:id', component: ImagesComponent}
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

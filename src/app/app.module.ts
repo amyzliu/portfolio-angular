@@ -9,13 +9,16 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
-import { HomeComponent } from './home/home.component';
+// import { HomeComponent } from './home/home.component';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { FooterComponent } from './shared/layout/footer/footer.component';
 import { HeaderComponent } from './shared/layout/header/header.component';
 import { TabsetProjectsComponent } from './tabset-projects/tabset-projects.component';
 import { BlogComponent } from './blog/blog.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ImagesComponent } from './images/images.component';
+import {ImageService} from './shared/image.service';
+import { ImageFilterPipe } from './shared/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,9 @@ import { GalleryComponent } from './gallery/gallery.component';
     HeaderComponent,
     TabsetProjectsComponent,
     BlogComponent,
-    GalleryComponent
+    GalleryComponent,
+    ImagesComponent,
+    ImageFilterPipe
   ],
   imports: [
     BrowserModule,
@@ -39,7 +44,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     //   { enableTracing: true } // <-- debugging purposes only
     // )
   ],
-  providers: [],
+  providers: [ImageService, ImageFilterPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
