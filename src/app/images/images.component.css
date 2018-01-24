@@ -1,0 +1,23 @@
+.img-container {
+  margin: 24px;
+  align-content: center;
+  width: 772px;
+  background-position: center;
+  background-repeat:no-repeat;
+  height: 1000px;
+  box-shadow: #555 1px 2px 8px 1px;
+
+}
+
+#caption {
+  font-size: 1.5em;
+  width: 900px;
+  color: #222;
+  padding: 18px;
+  border: 1px solid #bbb;
+}
+
+.caption-row{
+  padding: 24px;
+  text-align: center;
+}
