@@ -1,10 +1,11 @@
 .img-container {
-  margin: 24px;
+  margin: auto;
   align-content: center;
+  text-align: center;
+  display: block;
   background-position: center;
   background-repeat:no-repeat;
   box-shadow: #555 1px 2px 8px 1px;
-  position: absolute;
   width: 50%;
 }
 
