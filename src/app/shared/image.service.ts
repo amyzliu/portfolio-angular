@@ -18,5 +18,6 @@ export class ImageService {
 
 const images = [
   {'id': 1, 'category': 'activities', 'caption': 'Reddit Resume', 'url': 'assets/img/projects_01.png'},
-  {'id': 2, 'category': 'projects', 'caption': 'Crowdart', 'url': 'assets/img/projects_02.png'}
+  {'id': 2, 'category': 'projects', 'caption': 'Crowdart', 'url': 'assets/img/projects_02.png'},
+  {'id': 3, 'category': 'projects', 'caption': 'Kitty Paint', 'url': 'assets/img/projects_03.png'}
 ];
