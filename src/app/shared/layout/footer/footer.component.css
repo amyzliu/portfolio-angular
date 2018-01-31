@@ -8,10 +8,8 @@
   padding:15px;
   /*padding-bottom:15px;*/
 
-
-  /*position:fixed;    !*to stick to bottom*!*/
-
-  /*left:0;            !*to stick to left of body*!*/
+  position:fixed;    /*to stick to bottom*/
+  left:0;            /*to stick to left of body*/
   background:rgba(233, 236, 239, .5)
 }
 
